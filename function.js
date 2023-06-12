@@ -6,8 +6,18 @@ function computeSum(n) {
     return sum;
 }
 const currentTime = new Date();
-const iniTime = currentTime.getSeconds();
+const hours = currentTime.getHours();
+const minutes = currentTime.getMinutes();
+const seconds = currentTime.getSeconds();
+const milliseconds = currentTime.getMilliseconds();
+console.log(`Task Started : Current time: ${hours}:${minutes}:${seconds}.${milliseconds}`);
 console.log(computeSum(10000000000));
-const current = new Date();
-const finalTime = current.getSeconds();
-console.log(finalTime-iniTime);
+console.log(computeSum(10000000000));
+const currentTime1 = new Date();
+const hours1 = currentTime1.getHours();
+const minutes1 = currentTime1.getMinutes();
+const seconds1 = currentTime1.getSeconds();
+const milliseconds1 = currentTime1.getMilliseconds();
+console.log(`Task Ended : Current time: ${hours1}:${minutes1}:${seconds1}.${milliseconds1}`);
+const time = finalTime-iniTime;
+console.log(`Total Time In Seconds : ${time}`);
