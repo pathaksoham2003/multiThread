@@ -27,7 +27,6 @@ The code spawns a worker thread using the worker_threads module in Node.js. The 
 The computation being performed in both the main thread and the worker thread is the sum of numbers from 1 to inputNumber. The function computeSum(n) is used in both files to calculate the sum using a simple loop.
 
 ```javascript
-Copy code
 function computeSum(n) {
   let sum = 0;
   for (let i = 1; i <= n; i++) {
