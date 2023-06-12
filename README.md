@@ -1,4 +1,4 @@
-#Multi-Threading Optimization
+# Multi-Threading Optimization
 This code demonstrates the usage of multi-threading to optimize CPU utilization on a system with 2 cores. It consists of two files, main.js and worker.js, which work together to perform a computation in parallel using multiple threads.
 
 ##Usage
