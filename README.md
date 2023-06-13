@@ -5,10 +5,17 @@ This code demonstrates the usage of multi-threading to optimize CPU utilization 
 To run the code, follow these steps:
 
 1. Install Node.js on your system if it's not already installed.
-2. Clone the repository or download the code files.
+2. Clone the repository or download the code files OR Fork the repository if you want to play around the code.
+   To Clone use :- 
  ```git
  git clone https://github.com/pathaksoham2003/multiThread.git
  ```
+   To Fork :- 
+   1. Click on Fork button in the top and get it forked to your profile.
+   2. Use the forked repository to clone.
+      ```git
+      git clone https://github.com/YOURUSERID/multiThread.git
+      ```
 3. Open a terminal or command prompt and navigate to the project directory.
 4. Execute the code by running the command: `node main.js`.
 
