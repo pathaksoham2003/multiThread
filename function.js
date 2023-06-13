@@ -19,5 +19,3 @@ const minutes1 = currentTime1.getMinutes();
 const seconds1 = currentTime1.getSeconds();
 const milliseconds1 = currentTime1.getMilliseconds();
 console.log(`Task Ended : Current time: ${hours1}:${minutes1}:${seconds1}.${milliseconds1}`);
-const time = finalTime-iniTime;
-console.log(`Total Time In Seconds : ${time}`);
